@@ -91,6 +91,7 @@ interface ModernizrStatic {
     svgclippaths: boolean;
     touch: boolean;
     webgl: boolean;
+    webp: boolean;    
 
     load(resources: any[]): void;
     load(resourceObject: any): void;
